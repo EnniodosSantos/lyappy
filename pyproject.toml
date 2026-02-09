@@ -10,10 +10,7 @@ description = "Lyapunov Exponent Analisys Package"
 requires-python = ">=3.8"
 dependencies = [
     "numpy",
-    "matplotlib",
-    "random",
-    "math",
-    "decimal",
+    "matplotlib"
 ]
 
 [tool.setuptools.packages.find]
