@@ -151,7 +151,7 @@ def lyapunov_convergence(map_name, x0, steps, trans, prec=50, dec=False, plot=Fa
     else:
         return np.array([float(v) for v in lambda_evolution])
 
-    def available_maps(): return list(_chaotic_maps.keys())
+def available_maps(): return list(_chaotic_maps.keys())
 
 
 def map_time_serie(map_name, x0, steps, trans, prec=50, dec=False, plot=False):
